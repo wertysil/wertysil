@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'button.dart';
+import 'navigator.dart';
 
 void main() {
   runApp(const MyApp());
