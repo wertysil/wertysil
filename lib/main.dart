@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'align.dart';
+import 'alert.dart';
 
 void main() {
   runApp(const MyApp());
