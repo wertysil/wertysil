@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'image.dart';
+import 'button.dart';
 
 void main() {
   runApp(const MyApp());
