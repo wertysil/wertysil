@@ -3,14 +3,14 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-class MyHomepage extends StatefulWidget {
-  const MyHomepage({super.key});
+class scroleview extends StatefulWidget {
+  const scroleview({super.key});
 
   @override
-  State<MyHomepage> createState() => _MyHomepageState();
+  State<scroleview> createState() => _scroleviewState();
 }
 
-class _MyHomepageState extends State<MyHomepage> {
+class _scroleviewState extends State<scroleview> {
 
   final _url = 'https://jsonplaceholder.typicode.com/albums';
   int _page = 1;

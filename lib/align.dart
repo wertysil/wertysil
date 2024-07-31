@@ -4,14 +4,14 @@ import 'package:flutter_app/main.dart';
 void main() {
   runApp(const MyApp());
 }
-class MyHomepage extends StatefulWidget {
-  const MyHomepage({super.key});
+class align extends StatefulWidget {
+  const align({super.key});
 
   @override
-  State<MyHomepage> createState() => _MYHomepageState();
+  State<align> createState() => _MYHomepageState();
 }
 
-class _MYHomepageState extends State<MyHomepage> {
+class _MYHomepageState extends State<align> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MyHomepage extends StatefulWidget {
-  const MyHomepage({super.key});
+class boottom_navigator extends StatefulWidget {
+  const boottom_navigator({super.key});
 
   @override
-  State<MyHomepage> createState() => _MyHomepageState();
+  State<boottom_navigator> createState() => _boottom_navigatorState();
 }
 
-class _MyHomepageState extends State<MyHomepage>
+class _boottom_navigatorState extends State<boottom_navigator>
 with SingleTickerProviderStateMixin {
 
 
@@ -77,7 +77,7 @@ with SingleTickerProviderStateMixin {
         child: Text(
           tabText,
           style: const TextStyle(
-            color: Colors.purple
+            color: Colors.grey
   ),
   ),
   ),
