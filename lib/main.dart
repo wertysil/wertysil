@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'scroleview.dart';
+import 'boottom_navigator_bar.dart';
 
 void main() {
   runApp(const MyApp());
